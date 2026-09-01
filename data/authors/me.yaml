@@ -5,8 +5,8 @@ name:
   display: Диана Ситникова
   given: Диана
   family: Ситникова
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
   pronouns: ''
 postnominals: []
 status:
@@ -47,3 +47,112 @@ education:
     summary: |
       Факультет физико-математических и естественных наук.
       Направление подготовки "Прикладная информатика" 
+
+experience:
+  - role: Technical Account Manager (B2B Fintech Product)
+    org: Stardust
+    start: 2025-08-01
+    end: 2025-10-31
+    summary: |
+      Сбор и формализация требований клиентов в задачи для разработки,
+      функциональное тестирование и проверка интеграций. Анализ обращений
+      пользователей и выявление типовых ошибок. Поддержка работы платформы
+      для 12 клиентов, снижение количества повторных обращений на 80%.
+  - role: Learning Support Engineer
+    org: AltED
+    start: 2020-09-01
+    end: 2021-06-30
+    summary: |
+      Решение алгоритмических и программных задач, объяснение алгоритмов
+      и структур данных, ревью кода и структурированная обратная связь.
+
+skills:
+  - name: Языки программирования
+    items:
+      - label: C++ (C++17/20)
+        level: 5
+      - label: Python
+        level: 4
+      - label: Go
+        level: 3
+      - label: Bash
+        level: 4
+      - label: SQL
+        level: 3
+  - name: Системное программирование
+    items:
+      - label: STL, RAII, Move Semantics
+        level: 5
+      - label: Smart Pointers, Templates
+        level: 5
+      - label: Multithreading, Memory Management
+        level: 3
+  - name: Данные и сервисы
+    items:
+      - label: PostgreSQL, pgvector
+        level: 4
+      - label: Neo4j, MongoDB
+        level: 3
+      - label: FastAPI, REST API
+        level: 4
+  - name: Инфраструктура
+    items:
+      - label: Linux
+        level: 4
+      - label: Docker, Docker Compose
+        level: 4
+      - label: Git, GitHub Actions, CI/CD
+        level: 5
+      - label: CMake
+        level: 5
+
+awards:
+  - title: MOEX AI Hackathon --- 2 место
+    awarder: Московская биржа
+    date: "2026-06-30"
+    summary: |
+      Второе место в хакатоне по применению искусственного интеллекта
+      к задачам финансового рынка.
+    icon: hero/trophy
+  - title: Норникель AI Science Hack --- трек «Научный клубок»
+    awarder: Норникель
+    date: "2026-07-05"
+    summary: |
+      Трек «Научный клубок», команда Melancholy Hill. Вопросно-ответная
+      система по корпусу научно-технических документов.
+    icon: hero/beaker
+  - title: Лаборатория кода --- финалист
+    awarder: Авито
+    date: "2026-08-01"
+    summary: |
+      Выход в финал хакатона от команды стажировок и образования Авито.
+      Платформа интерактивного онбординга для классифайда.
+    icon: hero/code-bracket
+  - title: True Tech Champ --- полуфиналист
+    awarder: МТС
+    date: "2025-10-01"
+    summary: |
+      Полуфинал алгоритмического трека чемпионата.
+    icon: hero/cpu-chip
+  - title: HSE CTF --- 35 место
+    awarder: МИЭМ НИУ ВШЭ
+    date: "2026-05-01"
+    summary: |
+      Соревнование по информационной безопасности формата capture the flag,
+      команда Melancholy Hill.
+    icon: hero/shield-check
+  - title: Lenta Tech Life Hack --- участник финального тура
+    awarder: Лента
+    date: "2026-05-24"
+    summary: |
+      Распознавание ценников на видео из торгового зала и приведение данных
+      о товарах к структурированному виду.
+    icon: hero/camera
+
+languages:
+  - name: Русский
+    level: 5
+    label: Родной
+  - name: Английский
+    level: 4
+    label: B2
