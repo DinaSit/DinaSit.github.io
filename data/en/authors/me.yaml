@@ -1,0 +1,20 @@
+slug: me
+name:
+  display: Diana Sitnikova
+  given: Diana
+  family: Sitnikova
+role: Applied Informatics student
+affiliations:
+  - name: RUDN University
+    url: https://www.rudn.ru/
+bio: |
+  Undergraduate student at RUDN University, Applied Informatics programme.
+  Interested in systems programming, DevOps and high-performance software.
+  Currently focused on C++, algorithms, Linux-based systems and distributed
+  infrastructure.
+interests:
+  - Applied informatics
+  - Software development
+  - Operating systems and Linux
+  - Scientific computing
+  - Algorithms and data structures

@@ -1,22 +1,51 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+ru:
+  locale: ru-ru
+  label: Русский
+  contentDir: content/ru
+  weight: 1
+  params:
+    description: 'Персональный сайт Дианы Ситниковой — студентки направления 09.03.03 «Прикладная информатика» Российского университета дружбы народов.'
+    hugoblox:
+      identity:
+        name: 'Диана Ситникова'
+        tagline: 'Студентка направления «Прикладная информатика», РУДН'
+  menu:
+    main:
+      - name: Био
+        url: /
+        weight: 10
+      - name: Новости
+        url: /#news
+        weight: 13
+      - name: Опыт
+        url: experience/
+        weight: 20
+      - name: Проекты
+        url: projects/
+        weight: 30
 
-# Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  label: English
+  contentDir: content/en
+  weight: 2
+  params:
+    description: 'Personal website of Diana Sitnikova, an applied informatics student at RUDN University, Moscow.'
+    hugoblox:
+      identity:
+        name: 'Diana Sitnikova'
+        tagline: 'Applied Informatics student, RUDN University'
+  menu:
+    main:
+      - name: Bio
+        url: /
+        weight: 10
+      - name: News
+        url: /#news
+        weight: 13
+      - name: Experience
+        url: experience/
+        weight: 20
+      - name: Projects
+        url: projects/
+        weight: 30
