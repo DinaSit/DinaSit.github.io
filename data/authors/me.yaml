@@ -29,8 +29,19 @@ links:
     label: Связаться со мной
   - icon: brands/github
     url: https://github.com/DinaSit
+    label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/dinasit/
+    label: LinkedIn
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0007-3278-7580
+    label: ORCID
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Diana-Sitnikova
+    label: ResearchGate
+  - icon: academicons/academia
+    url: https://independent.academia.edu/DianaSitnikova
+    label: Academia.edu
 
 interests:
   - Прикладная информатика
