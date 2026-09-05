@@ -9,6 +9,7 @@ sections:
     content:
       title: Избранные проекты
       text: Личные и командные проекты – от системного программирования на C++ до сервисов на Go и Python.
+      count: 0
       filters:
         folders:
           - projects

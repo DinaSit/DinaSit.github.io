@@ -9,6 +9,7 @@ sections:
     content:
       title: Selected Projects
       text: A selection of projects I have worked on, from systems programming to applied language models.
+      count: 0
       filters:
         folders:
           - projects
