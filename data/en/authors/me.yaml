@@ -18,3 +18,128 @@ interests:
   - Operating systems and Linux
   - Scientific computing
   - Algorithms and data structures
+
+education:
+  - degree: BSc in Applied Informatics
+    institution: RUDN University
+    start: 2025-09-01
+    end: 2029-06-30
+    summary: |
+      Faculty of Physical, Mathematical and Natural Sciences.
+      Programme 09.03.03 "Applied Informatics".
+  - degree: BSc in World Economy
+    institution: Lomonosov Moscow State University
+    start: 2026-09-01
+    end: 2028-06-30
+    summary: |
+      Faculty of Economics.
+      Programme 38.04.01 "World Economy"
+
+experience:
+  - role: Technical Account Manager (B2B Fintech Product)
+    org: Stardust
+    start: 2025-08-01
+    end: 2025-10-31
+    summary: |
+      Collected and formalised client requirements into development tasks,
+      ran functional testing and verified integrations. Analysed user reports
+      and identified recurring failures. Supported the platform for 12 clients
+      and reduced repeat requests by 80%.
+  - role: Learning Support Engineer
+    org: AltED
+    start: 2020-09-01
+    end: 2021-06-30
+    summary: |
+      Solved algorithmic and programming problems, explained algorithms and
+      data structures, reviewed code and gave structured feedback.
+
+skills:
+  - name: Programming languages
+    items:
+      - label: C++ (C++17/20)
+        level: 5
+      - label: Python
+        level: 4
+      - label: Go
+        level: 3
+      - label: Bash
+        level: 4
+      - label: SQL
+        level: 3
+  - name: Systems programming
+    items:
+      - label: STL, RAII, Move Semantics
+        level: 5
+      - label: Smart Pointers, Templates
+        level: 5
+      - label: Multithreading, Memory Management
+        level: 3
+  - name: Data and services
+    items:
+      - label: PostgreSQL, pgvector
+        level: 4
+      - label: Neo4j, MongoDB
+        level: 3
+      - label: FastAPI, REST API
+        level: 4
+  - name: Infrastructure
+    items:
+      - label: Linux
+        level: 4
+      - label: Docker, Docker Compose
+        level: 4
+      - label: Git, GitHub Actions, CI/CD
+        level: 5
+      - label: CMake
+        level: 5
+
+awards:
+  - title: MOEX AI Hackathon --- 2nd place
+    awarder: Moscow Exchange
+    date: "2026-06-30"
+    summary: |
+      Second place in a hackathon on applying artificial intelligence
+      to financial market problems.
+    icon: hero/trophy
+  - title: Nornickel AI Science Hack --- science track
+    awarder: Nornickel
+    date: "2026-07-05"
+    summary: |
+      "Nauchny Klubok" track, team Melancholy Hill. A question answering
+      system over a corpus of scientific and technical documents.
+    icon: hero/beaker
+  - title: Code Lab --- finalist
+    awarder: Avito
+    date: "2026-08-01"
+    summary: |
+      Finalist of the hackathon run by the Avito internship and education
+      team. An interactive onboarding platform for a classifieds service.
+    icon: hero/code-bracket
+  - title: True Tech Champ --- semi-finalist
+    awarder: MTS
+    date: "2025-10-01"
+    summary: |
+      Semi-final of the algorithmic track of the championship.
+    icon: hero/cpu-chip
+  - title: HSE CTF --- 35th place
+    awarder: MIEM, HSE University
+    date: "2026-05-01"
+    summary: |
+      Capture the flag information security competition,
+      team Melancholy Hill.
+    icon: hero/shield-check
+  - title: Lenta Tech Life Hack --- final round
+    awarder: Lenta
+    date: "2026-05-24"
+    summary: |
+      Recognition of price tags in shop floor video and normalisation
+      of the extracted product data.
+    icon: hero/camera
+
+languages:
+  - name: Russian
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: B2
